@@ -1,1 +1,1 @@
-it was an awesome journy
+it was an awesome journey
