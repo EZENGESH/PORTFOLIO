@@ -25,7 +25,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = ["React", "User experience", "HTML", "CSS", "JAVASCRIPT", "GIT"];
+const skillsList = ["React", "User experience", "HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"];
 
 /**
  *  Information about what I am passionate about,
@@ -35,7 +35,7 @@ const skillsList = ["React", "User experience", "HTML", "CSS", "JAVASCRIPT", "GI
 const detailOrQuote =
   "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 
-const About = () => {
+function About() {
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
@@ -69,6 +69,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+}
 
 export default About;
