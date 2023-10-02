@@ -19,18 +19,8 @@ import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 
 const Footer = (props) => {
-  const {
-    devDotTo,
-    email,
-    gitHub,
-    instagram,
-    linkedIn,
-    medium,
-    name,
-    primaryColor,
-    twitter,
-  } = props;
-
+  const { devDotTo, email, gitHub, instagram, linkedIn, medium, name, primaryColor, twitter } =
+    props;
 
   return (
     <div
