@@ -6,6 +6,7 @@ const imageAltText = "desktop with books and laptop";
  * Project list
  *
  */
+
 const projectList = [
   {
     title: "Login Page",
