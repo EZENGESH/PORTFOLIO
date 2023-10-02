@@ -1,5 +1,5 @@
 /**
- * Home component
+ * * Home component
  *
  * The section at the top of the page to display image of your
  * choice, name and title that describes your career focus.
@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/woman-with-tablet.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "code displayed on the screen of a computer";
 
 const Home = ({ name, title }) => {
   return (
